@@ -220,6 +220,7 @@ body > h1:nth-of-type(3) {
 }
 
 body > h1:nth-of-type(3) a,
+body > .temple-links a,
 body > h1:nth-of-type(6) a {
     border-color: transparent;
     background: linear-gradient(135deg, #3857ff, #a238df);
@@ -228,6 +229,7 @@ body > h1:nth-of-type(6) a {
 }
 
 body > h1:nth-of-type(3) a:hover,
+body > .temple-links a:hover,
 body > h1:nth-of-type(6) a:hover {
     background: linear-gradient(135deg, #2948ea, #8624c8);
 }
