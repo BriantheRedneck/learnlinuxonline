@@ -25,12 +25,12 @@ html {
     scroll-behavior: smooth;
     background-color: #f29a55;
     background:
-        radial-gradient(ellipse at 8% 4%, rgba(34, 102, 204, 0.76), transparent 38rem),
+        radial-gradient(ellipse at 8% 4%, rgba(57, 127, 222, 0.72), transparent 38rem),
         radial-gradient(ellipse at 96% 24%, rgba(255, 178, 105, 0.5), transparent 25rem),
         radial-gradient(ellipse at 74% 92%, rgba(255, 191, 119, 0.4), transparent 26rem),
-        radial-gradient(ellipse at 48% 45%, rgba(61, 125, 204, 0.62), transparent 40rem),
+        radial-gradient(ellipse at 48% 45%, rgba(89, 151, 220, 0.58), transparent 40rem),
         radial-gradient(ellipse at 50% 2%, rgba(255, 205, 137, 0.3), transparent 22rem),
-        linear-gradient(125deg, #285caa 0%, #548ac2 55%, #8baac7 82%, #c6b5a8 100%);
+        linear-gradient(125deg, #3d73bd 0%, #6a9bd0 55%, #9bb8d2 82%, #c6b5a8 100%);
     background-attachment: fixed;
 }
 
