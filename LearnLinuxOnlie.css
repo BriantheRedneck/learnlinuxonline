@@ -9,7 +9,7 @@
     -moz-osx-font-smoothing: grayscale;
 
     --color-ink: #202a44;
-    --color-muted: #66718b;
+    --color-muted: var(--color-ink);
     --color-accent: #334ee8;
     --color-accent-dark: #283b9e;
     --color-surface: rgba(255, 255, 255, 0.84);
