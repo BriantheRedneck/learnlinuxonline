@@ -150,6 +150,7 @@ body > h1 a {
 }
 
 body > a:hover,
+body > .temple-links a:hover,
 body > h1 a:hover {
     transform: translateY(-2px);
     background: linear-gradient(135deg, #d7e2ff, #e8d2ff);
@@ -157,9 +158,39 @@ body > h1 a:hover {
 }
 
 body > a:focus-visible,
+body > .temple-links a:focus-visible,
 body > h1 a:focus-visible {
     outline: 3px solid #8b9aff;
     outline-offset: 4px;
+}
+
+.temple-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 72ch;
+    margin: 0 auto;
+}
+
+.temple-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    margin: 0.45rem;
+    padding: 0.75rem 1.3rem;
+    border: 2px solid rgba(83, 72, 224, 0.42);
+    border-radius: 999px;
+    background: linear-gradient(135deg, #ffffff 0%, #dce6ff 55%, #f0dcff 100%);
+    box-shadow: 0 10px 26px rgba(64, 73, 190, 0.18);
+    color: var(--color-accent-dark);
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+    transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
 }
 
 body > h3:nth-of-type(4) {
@@ -230,6 +261,120 @@ body > h1:nth-of-type(5) {
 
 body > h1:nth-of-type(6) {
     margin-top: 0.5rem;
+}
+
+@media (min-width: 1000px) {
+    html {
+        background:
+            radial-gradient(ellipse at 8% 4%, rgba(84, 119, 255, 0.88), transparent 38rem),
+            radial-gradient(ellipse at 93% 29%, rgba(151, 91, 255, 0.78), transparent 34rem),
+            radial-gradient(ellipse at 52% 88%, rgba(42, 184, 255, 0.68), transparent 36rem),
+            radial-gradient(ellipse at 48% 45%, rgba(255, 126, 222, 0.44), transparent 40rem),
+            radial-gradient(ellipse at 50% 2%, rgba(255, 192, 91, 0.28), transparent 28rem),
+            #f5f7ff;
+        background-attachment: fixed;
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: repeat(9, auto);
+        column-gap: clamp(2rem, 5vw, 5rem);
+        row-gap: clamp(1.5rem, 3vw, 2.5rem);
+        width: min(100%, 1440px);
+        max-width: none;
+        margin: 0 auto;
+        padding: clamp(4rem, 7vw, 7rem) clamp(2rem, 6vw, 6rem);
+        background: transparent;
+    }
+
+    body > h1:first-of-type {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        max-width: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    body > h3.inspiration-text {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        max-width: none;
+        margin: 0;
+    }
+
+    body > h1:nth-of-type(2) {
+        grid-column: 1 / -1;
+        grid-row: 3;
+        max-width: none;
+        margin: 0;
+    }
+
+    body > img {
+        grid-column: 1;
+        grid-row: 4 / 7;
+        align-self: start;
+        width: 100%;
+        max-width: 640px;
+        margin: 0;
+    }
+
+    body > h3:nth-of-type(2) {
+        grid-column: 2;
+        grid-row: 4;
+        max-width: none;
+        margin: 0;
+    }
+
+    body > .temple-links {
+        grid-column: 2;
+        grid-row: 5;
+        justify-content: flex-start;
+        max-width: none;
+        margin: 0;
+        gap: 0.75rem;
+    }
+
+    body > .temple-links a {
+        margin: 0;
+    }
+
+    body > h3:nth-of-type(3) {
+        grid-column: 2;
+        grid-row: 6;
+        max-width: none;
+        margin: 0;
+    }
+
+    body > h1:nth-of-type(3) {
+        grid-column: 1;
+        grid-row: 7;
+        max-width: none;
+        margin: 0;
+    }
+
+    body > h1.call-info {
+        grid-column: 2;
+        grid-row: 7;
+        max-width: none;
+        margin: 0;
+    }
+
+    body > h1:nth-of-type(5),
+    body > h1:nth-of-type(6) {
+        grid-column: 1 / -1;
+        max-width: none;
+    }
+
+    body > h1:nth-of-type(5) {
+        grid-row: 8;
+        margin: 0;
+    }
+
+    body > h1:nth-of-type(6) {
+        grid-row: 9;
+        margin: 0;
+    }
 }
 
 @media (max-width: 600px) {
