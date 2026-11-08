@@ -60,7 +60,7 @@ h3 {
 body > h1:first-of-type {
     max-width: 15ch;
     margin-bottom: 0.75rem;
-    color: #000000;
+    color: #d91d1d;
     font-size: clamp(2.9rem, 7.8vw, 5.8rem);
     font-weight: 900;
     letter-spacing: -0.065em;
@@ -72,7 +72,7 @@ body > h3:first-of-type {
     max-width: 38ch;
     margin: 0 auto 1.25rem;
     padding: 1.5rem;
-    color: #111111;
+    color: #d91d1d;
     font-size: clamp(1.15rem, 2.4vw, 1.5rem);
     font-weight: 800;
     line-height: 1.45;
@@ -88,6 +88,7 @@ body > h1:nth-of-type(5),
     border-radius: 1.5rem;
     background: linear-gradient(120deg, #ffffff 0%, #c5d5ff 38%, #dfc0ff 72%, #ffc9ed 100%);
     box-shadow: 0 18px 40px rgba(79, 65, 212, 0.28);
+    color: #000000;
 }
 
 body > h3:nth-of-type(2) {
@@ -95,7 +96,7 @@ body > h3:nth-of-type(2) {
     margin: 0 0 clamp(4rem, 9vw, 7rem);
     padding: clamp(1.5rem, 4vw, 2.5rem);
     box-shadow: var(--shadow-soft);
-    color: var(--color-muted);
+    color: #000000;
     font-size: clamp(1rem, 1.7vw, 1.125rem);
     font-weight: 400;
     line-height: 1.8;
@@ -105,7 +106,7 @@ body > h1:nth-of-type(2),
 body > h1:nth-of-type(5),
 body > h1:nth-of-type(6) {
     margin-bottom: 1.75rem;
-    color: #000000;
+    color: #d91d1d;
     font-size: clamp(2.2rem, 4.8vw, 3.1rem);
     font-weight: 900;
     letter-spacing: -0.045em;
@@ -128,7 +129,7 @@ body > h3:nth-of-type(3) {
     margin-top: 5rem;
     margin-bottom: 1rem;
     padding: 1.5rem;
-    color: var(--color-muted);
+    color: #d91d1d;
     font-size: clamp(1rem, 1.8vw, 1.125rem);
     font-weight: 450;
 }
@@ -202,16 +203,22 @@ body > h3:nth-of-type(4) {
     margin: 2.5rem 0 clamp(4rem, 9vw, 7rem);
     padding: clamp(1.5rem, 4vw, 2.5rem);
     box-shadow: var(--shadow-soft);
-    color: var(--color-muted);
+    color: #000000;
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
     line-height: 1.9;
 }
 
+body > h3.inspiration-text,
+body > h3:nth-of-type(3) {
+    color: #000000;
+}
+
 body > h1:nth-of-type(n + 3) {
     max-width: 42ch;
     margin: 0.75rem 0;
+    color: #d91d1d;
     font-size: clamp(1.25rem, 2.8vw, 1.8rem);
     font-weight: 650;
     letter-spacing: -0.025em;
