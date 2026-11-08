@@ -24,7 +24,7 @@ html {
     min-width: 320px;
     scroll-behavior: smooth;
     background-color: #120a12;
-    background-image: url("./assets/wallpapersden.com_red-black-abstract_1920x1080.jpg");
+    background-image: linear-gradient(135deg, rgba(16, 7, 22, 0.9), rgba(58, 20, 68, 0.75)), url("./assets/wallpapersden.com_red-black-abstract_1920x1080.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
