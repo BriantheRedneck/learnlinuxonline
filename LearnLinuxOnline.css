@@ -1,19 +1,19 @@
 :root {
     color-scheme: dark;
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color: #111111;
+    color: #ffffff;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    --color-ink: #111111;
-    --color-muted: #111111;
+    --color-ink: #ffffff;
+    --color-muted: #f3d9d9;
     --color-accent: #ff4d4d;
-    --color-accent-dark: #b51010;
-    --color-surface: rgba(255, 255, 255, 0.06);
-    --color-border: rgba(255, 255, 255, 0.3);
-    --shadow-soft: 0 20px 50px rgba(0, 0, 0, 0.25);
+    --color-accent-dark: #ff7777;
+    --color-surface: rgba(18, 5, 9, 0.9);
+    --color-border: rgba(255, 77, 77, 0.55);
+    --shadow-soft: 0 20px 50px rgba(0, 0, 0, 0.4);
 }
 
 * {
@@ -423,4 +423,57 @@ body > h1:nth-of-type(6) {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
     }
+}
+
+body > h3:nth-of-type(2),
+body > h3:nth-of-type(3),
+body > h3:nth-of-type(4),
+body > h3.inspiration-text,
+body > h3.call-info,
+body > h1:nth-of-type(4),
+body > h1:nth-of-type(5),
+body > h1.call-info,
+body > h1.call-info:nth-of-type(4),
+body > h1.call-info:nth-of-type(5) {
+    border-color: rgba(255, 77, 77, 0.72);
+    background: linear-gradient(120deg, rgba(18, 5, 9, 0.96), rgba(91, 13, 23, 0.94));
+    box-shadow: 0 18px 40px rgba(115, 15, 27, 0.38);
+    color: #ffffff;
+}
+
+body > a,
+body > h1 a,
+body > .temple-links a {
+    border-color: rgba(255, 77, 77, 0.65);
+    background: linear-gradient(135deg, #26080d, #8f1724);
+    box-shadow: 0 10px 26px rgba(125, 18, 30, 0.3);
+    color: #ffffff;
+}
+
+body > h1:nth-of-type(3) a,
+body > h1:nth-of-type(6) a {
+    border-color: rgba(255, 77, 77, 0.65);
+    background: linear-gradient(135deg, #26080d, #8f1724);
+    box-shadow: 0 16px 34px rgba(125, 18, 30, 0.42);
+    color: #ffffff;
+}
+
+body > a:hover,
+body > .temple-links a:hover,
+body > h1 a:hover {
+    background: linear-gradient(135deg, #4a0d16, #b51f30);
+    box-shadow: 0 14px 32px rgba(155, 20, 37, 0.42);
+}
+
+body > a:focus-visible,
+body > .temple-links a:focus-visible,
+body > h1 a:focus-visible {
+    outline-color: #ff7777;
+}
+
+body > h1:first-of-type,
+body > h1:nth-of-type(2),
+body > h1:nth-of-type(3),
+body > h1:nth-of-type(6) {
+    color: #ff5b5b;
 }
