@@ -438,7 +438,7 @@ body > h1.call-info:nth-of-type(5) {
     border-color: rgba(255, 77, 77, 0.72);
     background: linear-gradient(120deg, rgba(18, 5, 9, 0.96), rgba(91, 13, 23, 0.94));
     box-shadow: 0 18px 40px rgba(115, 15, 27, 0.38);
-    color: #ffffff;
+    color: #ff5b5b;
 }
 
 body > a,
@@ -447,7 +447,7 @@ body > .temple-links a {
     border-color: rgba(255, 77, 77, 0.65);
     background: linear-gradient(135deg, #26080d, #8f1724);
     box-shadow: 0 10px 26px rgba(125, 18, 30, 0.3);
-    color: #ffffff;
+    color: #ff5b5b;
 }
 
 body > h1:nth-of-type(3) a,
@@ -455,7 +455,7 @@ body > h1:nth-of-type(6) a {
     border-color: rgba(255, 77, 77, 0.65);
     background: linear-gradient(135deg, #26080d, #8f1724);
     box-shadow: 0 16px 34px rgba(125, 18, 30, 0.42);
-    color: #ffffff;
+    color: #ff5b5b;
 }
 
 body > a:hover,
