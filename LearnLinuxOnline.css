@@ -224,7 +224,7 @@ body > h3:nth-of-type(4) {
 
 body > h3.inspiration-text,
 body > h3:nth-of-type(3) {
-    color: #000000;
+    color: #ff5b5b;
 }
 
 body > h1:nth-of-type(n + 3) {
@@ -454,13 +454,15 @@ body > h1:nth-of-type(3) a,
 body > h1:nth-of-type(6) a {
     border-color: rgba(255, 77, 77, 0.65);
     background: linear-gradient(135deg, #26080d, #8f1724);
-    box-shadow: 0 16px 34px rgba(125, 18, 30, 0.42);
+    box-shadow: 0 10px 26px rgba(125, 18, 30, 0.3);
     color: #ff5b5b;
 }
 
 body > a:hover,
 body > .temple-links a:hover,
-body > h1 a:hover {
+body > h1 a:hover,
+body > h1:nth-of-type(3) a:hover,
+body > h1:nth-of-type(6) a:hover {
     background: linear-gradient(135deg, #4a0d16, #b51f30);
     box-shadow: 0 14px 32px rgba(155, 20, 37, 0.42);
 }
